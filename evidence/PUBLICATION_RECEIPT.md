@@ -27,7 +27,7 @@ the kernel and Aristotle receipts.
 | `paper/main.bbl` | 1,313 | `7bb856e042f956533694b7a696e7c38b2a6b8839773a7c1f2e6d5fc3f13c896b` |
 | `paper/references.bib` | 2,084 | `f5ae86855cbe5d29b7fd5aef310286c192cffb0b64a4b48acd4bb43e16cffcee` |
 | `paper/main.pdf` | 371,445 | `85321960fa818a00581aaac99b1b57a52a329a843c277e564a097894196f979a` |
-| `paper/dimension-two-counterexample-arxiv.zip` | 51,089 | `39d34c163a695e1ec8e8b49289ed1fda3d669890456116a9906fcc56a120edb5` |
+| `paper/dimension-two-counterexample-arxiv.zip` | 50,763 | `bc8010009f178b9013ea2a8c656f12df159cc6156c1e53eaf23d0d235596f478` |
 
 The generated PDF and ZIP are ignored in `paper/` because they are
 rebuildable. The exact two release artifacts above are staged in
