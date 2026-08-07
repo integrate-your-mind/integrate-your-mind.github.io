@@ -1,9 +1,19 @@
 # Publication receipt
 
-Date: 2026-07-29
-Status: local preprint package assembled and direct local checks passed.
-arXiv Submission System 1.5 compatibility, processed-PDF review, metadata,
-and submission remain pending.
+Release prepared: 2026-07-29
+Public record reverified: 2026-08-06
+Status: published on arXiv.
+
+- Permanent identifier: `arXiv:2608.02634` (`math.AG`; cross-listed `math.AC`)
+- Abstract record: <https://arxiv.org/abs/2608.02634>
+- DOI: <https://doi.org/10.48550/arXiv.2608.02634>
+- Version 1 submission timestamp: `2026-07-29 22:27:52 UTC`
+- Historical temporary submission number: `submit/7885243`
+
+The official record exposes the ten-page PDF, TeX source, HTML rendering, and
+the submitted Lean/Harmonic evidence as public ancillary files. The temporary
+number is preserved below only to connect the final record to the original
+submission receipt.
 
 ## Source identity
 
@@ -89,7 +99,7 @@ main theorem, geometric generic-fiber bridge, structural provenance, and the
 formal terminal declarations. The manuscript continues to label the local
 Lean receipt as historical and does not claim a new cache-free Lean rebuild.
 
-## External and author-controlled gates
+## External publication receipt
 
 GitHub Actions did not start the workflow at preserved source commit
 `d7e2ed2b9b6bd72cee9699d208558f63ce717189`: run
@@ -100,18 +110,33 @@ diagnosed manuscript or workflow failure. The exact direct local PDF and
 archive checks above are the release evidence.
 
 The author selected the arXiv perpetual, non-exclusive license, confirmed the
-account affiliation and email, selected `math.AG` as the primary category, and
+account affiliation, selected `math.AG` as the primary category, and
 authorized the final title, abstract, comments, source bundle, and permanent
-public ancillary Lean receipts. ORCID remains omitted. arXiv requires a
-`math.AG` endorsement for this new account; that external gate is pending.
+public ancillary Lean receipts. The temporary receipt `submit/7885243` is now
+superseded by the permanent public record.
 
-After upload, the author must inspect the PDF produced by arXiv's current
-Submission System 1.5 at the Review Files step. The legacy AutoTeX system was
-retired in April 2025; a local PDF or a valid `00README.json` is not a receipt
-for arXiv's processed result.
+Live publication checks on 2026-08-06 established:
 
-Official submission references:
+| Public artifact | Bytes | SHA-256 |
+| --- | ---: | --- |
+| arXiv-generated PDF | 374,423 | `b6933e8dc2238cc46aac5b96727cc01ae97ee4b178d691cf65ff175dc8d6a86e` |
+| arXiv source archive | 40,253 | `ae12bc3c553094f26fb739317fcec610f1a67aefbf2481769810aa8f440094fa` |
 
-- <https://info.arxiv.org/help/submit/index.html>
-- <https://info.arxiv.org/help/submit_tex.html>
-- <https://info.arxiv.org/help/00README.html>
+The arXiv-generated PDF is not byte-identical to the local PDF because arXiv
+regenerates it; it is nevertheless ten pages and was checked against the same
+source. The official source archive's `main.tex`, `main.bbl`,
+`references.bib`, Lean modules, dependency pins, and evidence receipts match
+the submitted local bundle file by file. ArXiv generated `00README.json`
+during processing, as expected; it was not present in the submitted ZIP.
+
+The official TeX source uses `k=\\overline{\\mathbb F}_2` in the abstract,
+body, and theorem. A plain-text extraction of the generated PDF drops the
+overline glyph; that extraction artifact is not a normalization mismatch.
+
+Canonical public references:
+
+- <https://arxiv.org/abs/2608.02634>
+- <https://arxiv.org/pdf/2608.02634>
+- <https://arxiv.org/src/2608.02634>
+- <https://arxiv.org/html/2608.02634>
+- <https://doi.org/10.48550/arXiv.2608.02634>
